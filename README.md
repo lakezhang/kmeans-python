@@ -1,0 +1,19 @@
+###The python implementation of kmeans cluster algorithm 
+
+####Only for iris dataset or dataset with the same pattern ,  if you want to use other dataset , please modify the function "load_file"
+
+>run:
+>python kmeans.py
+>
+>The results:
+>STEP: 1, TOTAL_DISTANCE: 126.8782, DESCREASE: 126.8782
+>STEP: 2, TOTAL_DISTANCE: 99.1195, DESCREASE: 27.7587
+>STEP: 3, TOTAL_DISTANCE: 97.5304, DESCREASE: 1.5891
+>STEP: 4, TOTAL_DISTANCE: 97.3272, DESCREASE: 0.2032
+>STEP: 5, TOTAL_DISTANCE: 97.2464, DESCREASE: 0.0808
+>STEP: 6, TOTAL_DISTANCE: 97.1901, DESCREASE: 0.0563
+>STEP: 7, TOTAL_DISTANCE: 97.3462, DESCREASE: -0.1561
+>CLUSTER: 25 ALLNUM: 50 CORRECT: 50 PRECISION: 1.0000 LABEL: Iris-setosa
+>CLUSTER: 66 ALLNUM: 61 CORRECT: 47 PRECISION: 0.7705 LABEL: Iris-versicolor
+>CLUSTER: 76 ALLNUM: 39 CORRECT: 36 PRECISION: 0.9231 LABEL: Iris-virginica
+>ALLNUM: 150 CORRECT: 133 PRECISION: 0.8867
