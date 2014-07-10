@@ -26,6 +26,9 @@ def distance(a, b, gauss=True):
 def load_file(file_name) :
     """
         Load dataset, for iris dataset
+        @return data, count
+        count : the records num 
+        data : {'f' : feature list , 'c' : cluster id, 'l' : origin cluster label}
     """
     data = {}
 
